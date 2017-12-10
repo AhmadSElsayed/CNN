@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def Hello_World():
-    f = open('index.html', 'r')
+    f = open('r.html', 'r')
     return f.read()
 
 @app.route('/Test')
